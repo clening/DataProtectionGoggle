@@ -4,13 +4,41 @@
 ! author: @privacat
 
  
+!primary sources
 $boost=10,$site=edpb.europa.eu
 $boost=10,$site=dataprotection.ie
 $boost=10,$site=eur-lex.europa.eu
-/legal^$boost=4,site=eur-lex.europa.eu
-$boost=5,$site=irishstatutebook.ie
-$boost=6,$site=gdpr-info.eu
-$boost=3,$site=iapp.org
-$boost=4,$site=cnil.fr
+/legal^$boost=6,site=eur-lex.europa.eu
+$boost=10,$site=cnil.fr
 /en^$boost=4,site=cnil.fr
+$boost=10,$site=ico.org.uk
+$boost=5,$site=irishstatutebook.ie
+$boost=10,$site=gdpr-info.eu
+$boost=10,$site=ada.lt
+$boost=10,$site=aepd.es
+$boost=10,$site=aki.ee
+$boost=10,$site=dataprotection.ro
+$boost=10,$site=autoriteitpersoonsgegevens.nl
+$boost=10,$site=dataprotectionauthority.be
+$boost=10,$site=apdcat.gencat.cat
+$boost=10,$site=azop.hr
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+$boost=10,$site=
+
+
+!secondary sources
+$boost=3,$site=iapp.org
 $boost=6,$site=gdprhub.eu
+/index.php?title=^$boost=4,site=gdprhub.eu
+
+!commentary
