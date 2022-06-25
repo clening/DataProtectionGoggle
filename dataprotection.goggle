@@ -3,8 +3,8 @@
 ! public: true
 ! author: @privacat
 
-$boost=3, $site=edpb.europa.eu^
+$boost=3, $site=edpb.europa.eu
 /our-work-tools/^$boost=3,site=edpb.europa.eu
-$boost=3, $site=dataprotection.ie^
+$boost=3, $site=dataprotection.ie
 /en/dpc-guidance/^$boost=4,site=dataprotection.ie
 /en/dpc-guidance/law/judgments/^$boost=3,site=dataprotection.ie
