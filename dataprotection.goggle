@@ -4,7 +4,6 @@
 ! author: @privacat
 
 $boost=5, $site=edpb.europa.eu
-/our-work-tools/^$boost=5,site=edpb.europa.eu
 $boost=5, $site=dataprotection.ie
-/en/dpc-guidance/^$boost=4,site=dataprotection.ie
-/en/dpc-guidance/law/judgments/^$boost=3,site=dataprotection.ie
+$boost=5, $site=eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0679-20160504
+$boost=5, $site=irishstatutebook.ie
