@@ -6,6 +6,7 @@
  
 !primary sources
 $boost=10,$site=edpb.europa.eu
+$boost=10,$site=edps.europa.eu
 $boost=10,$site=dataprotection.ie
 $boost=10,$site=eur-lex.europa.eu
 /legal^$boost=6,site=eur-lex.europa.eu
@@ -22,18 +23,48 @@ $boost=10,$site=autoriteitpersoonsgegevens.nl
 $boost=10,$site=dataprotectionauthority.be
 $boost=10,$site=apdcat.gencat.cat
 $boost=10,$site=azop.hr
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
-$boost=10,$site=
+$boost=10,$site=lda.bayern.de
+$boost=10,$site=datenschutz-bayern.de
+$boost=10,$site=bfdi.bund.de
+$boost=10,$site=datenschutz-berlin.de
+$boost=10,$site=cpdp.bg
+$boost=10,$site=datenschutz.saarland.de
+$boost=10,$site=cnpd.lu
+$boost=10,$site=cnpd.pt
+$boost=10,$site=dataprotection.gov.cy
+$boost=10,$site=ctpdandalucia.es
+$boost=10,$site=di.ax
+$boost=10,$site=datatilsynet.dk
+$boost=10,$site=datatilsynet.no
+$boost=10,$site=datenschutzstelle.li
+$boost=10,$site=datenschutz.hessen.de
+$boost=10,$site=dpa.gr
+$boost=10,$site=avpd.euskadi.eus
+$boost=10,$site=dsb.gv.at
+$boost=10,$site=datenschutzkonferenz-online.de
+$boost=10,$site=dvi.gov.lv
+$boost=10,$site=datenschutz.hamburg.de
+$boost=10,$site=lda.brandenburg.de
+$boost=10,$site=ldi.nrw.de
+$boost=10,$site=datenschutz.sachsen-anhalt.de
+$boost=10,$site=datenschutz.bremen.de
+$boost=10,$site=datenschutz-mv.de
+$boost=10,$site=datenschutz.rlp.de
+$boost=10,$site=personuvernd.is
+$boost=10,$site=datenschutzzentrum.de
+$boost=10,$site=uodo.gov.pl
+$boost=10,$site=uoou.cz
+$boost=10,$site=lfd.niedersachsen.de
+$boost=10,$site=baden-wuerttemberg.datenschutz.de
+$boost=10,$site=naih.hu
+$boost=10,$site=personvernnemnda.no
+$boost=10,$site=tietosuoja.fi
+/en^$boost=9,site=tietosuoja.fi
+$boost=10,$site=tlfdi.de
+$boost=10,$site=dataprotection.gov.sk
+$boost=10,$site=garanteprivacy.it
+$boost=10,$site=idpc.org.mt
+$boost=10,$site=imy.se
 
 
 !secondary sources
