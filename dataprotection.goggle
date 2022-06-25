@@ -6,6 +6,7 @@
 $boost=5,$site=edpb.europa.eu
 $boost=5,$site=dataprotection.ie
 $boost=5,$site=eur-lex.europa.eu
+/legal^$boost=3,site=eur-lex.europa.eu
 !/legal-content^$boost=3,site=eur-lex.europa.eu
 /blog^$boost=3,site=adambard.com
 $boost=5,$site=irishstatutebook.ie
