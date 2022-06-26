@@ -78,6 +78,8 @@ $boost=4,site=leginfo.legislature.ca.gov
 bill_id=201720180SB1121$inurl,$boost=4
 $boost=4,site=lis.virginia.gov
 $boost=4,site=ilga.gov
+$boost=3,site=legislation.gov.uk
+/eu^&boost=4,site=legislation.gov.uk
 
 !secondary sources
 $boost=8,site=enforcementtracker.com
@@ -90,10 +92,12 @@ $boost=5,site=iapp.org
 $boost=4,site=dataguidance.com
 $boost=4,site=natlawreview.com
 /article/state-us-state-privacy-laws-comparison^$boost=4,site=natlawreview.com
-
+$boost=3,site=gdpr.algolia.com
+$boost=2,site=biometricupdate.com
 
 !twitter - TBD
 $boost=3,site=twitter.com
+/lists/1471549449776345092^$boost=4,site:twitter.com
 
 ! Crap that's broke
 ! /privacy^$boost=4,site:oag.ca.gov
@@ -107,4 +111,4 @@ $boost=3,site=twitter.com
 ! ^/legal-research^$boost=3,site:dataguidance.com
 ! ^/state-laws^$boost=5,site:epic.org
 ! /gdpr_et$boost=7,site:twitter.com
-! ^/lists/1471549449776345092$boost=8,site:twitter.com
+! 
