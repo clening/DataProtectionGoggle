@@ -112,16 +112,20 @@ $boost=2,site=biometricupdate.com
 $boost=5,site=twitter.com
 *1471549449776345092^$boost=3
 
+! Awesome Castlebridge Insights :) 
+$boost=3,site=castlebridge.ie
+/insights^$boost=3,site=castlebridge.ie
+
 ! Crap that's broke
-! /privacy^$boost=8,site:oag.ca.gov
-! /ccpa^$boost=8, site:oag.ca.gov
-! /bills/static/SB0227^$boost=8,site:le.utah.gov
-! /211+sum+SB1392^$boost=8,site:lis.virginia.gov
-! /ActID=3004&ChapterID=57^$boost=8,site:ilga.gov
-! ^/us-state-privacy-legislation-tracker^$boost=8,site:iapp.org
-! ^/us-federal-privacy-legislation-tracker^$boost=8,site:iapp.org
-! ^/enforcement-and-breach-tracker^$boost=8,site:dataguidance.com
-! ^/legal-research^$boost=3,site:dataguidance.com
-! ^/state-laws^$boost=5,site:epic.org
-! /gdpr_et$boost=7,site:twitter.com
-! 
+/privacy^$boost=8,site=oag.ca.gov
+/ccpa^$boost=8, site=oag.ca.gov
+/bills/static/SB0227^$boost=8,site=le.utah.gov
+/211+sum+SB1392^$boost=8,site=lis.virginia.gov
+/ActID=3004&ChapterID=57^$boost=8,site=ilga.gov
+/us-state-privacy-legislation-tracker^$boost=8,site=iapp.org
+/us-federal-privacy-legislation-tracker^$boost=8,site=iapp.org
+/enforcement-and-breach-tracker^$boost=8,site=dataguidance.com
+/legal-research^$boost=3,site=dataguidance.com
+/state-laws^$boost=5,site=epic.org
+/gdpr_et$boost=7,site=twitter.com
+ 
