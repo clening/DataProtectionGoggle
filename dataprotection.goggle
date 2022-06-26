@@ -117,7 +117,8 @@ $boost=3,site=castlebridge.ie
 /insights^$boost=3,site=castlebridge.ie
 
 ! Crap that's broke
-/privacy^$boost=8,site=oag.ca.gov
+
+! /privacy^$boost=8,site=oag.ca.gov
 ! /ccpa^$boost=8, site=oag.ca.gov
 ! /bills/static/SB0227^$boost=8,site=le.utah.gov
 /211+sum+SB1392^$boost=8,site=lis.virginia.gov
