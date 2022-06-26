@@ -100,6 +100,8 @@ $boost=5,site=iapp.org
 $boost=4,site=fra.europa.eu
 $boost=4,site=aclu.org
 $boost=4,site=dataguidance.com
+$boost=4,site=lexology.com
+/library^$boost=4,site=lexology.com
 $boost=4,site=natlawreview.com
 /article/state-us-state-privacy-laws-comparison^$boost=8,site=natlawreview.com
 $boost=3,site=gdpr.algolia.com
