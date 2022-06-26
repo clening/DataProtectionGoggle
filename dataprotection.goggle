@@ -13,109 +13,113 @@ $downrank,site=hackernews.com
 
 
 ! primary sources
-$boost=5,site=eur-lex.europa.eu
+$boost=8,site=eur-lex.europa.eu
 /search.html?^$boost=5
-$boost=5,site=curia.europa.eu
+$boost=8,site=curia.europa.eu
 /juris$inurl,$boost=5
-$boost=4,site=edpb.europa.eu
-$boost=4,site=edps.europa.eu
-$boost=4,site=dataprotection.ie
-$boost=4,site=eur-lex.europa.eu
-/legal^$boost=4,site=eur-lex.europa.eu
-$boost=4,site=cnil.fr
-/en^$boost=4,site=cnil.fr
-$boost=4,site=ico.org.uk
-$boost=4,site=irishstatutebook.ie
-$boost=4,site=gdpr-info.eu
-$boost=4,site=ada.lt
-$boost=4,site=aepd.es
-$boost=4,site=aki.ee
-$boost=4,site=dataprotection.ro
-$boost=4,site=autoriteitpersoonsgegevens.nl
-$boost=4,site=dataprotectionauthority.be
-$boost=4,site=apdcat.gencat.cat
-$boost=4,site=azop.hr
-$boost=4,site=lda.bayern.de
-$boost=4,site=datenschutz-bayern.de
-$boost=4,site=bfdi.bund.de
-$boost=4,site=datenschutz-berlin.de
-$boost=4,site=cpdp.bg
-$boost=4,site=datenschutz.saarland.de
-$boost=4,site=cnpd.lu
-$boost=4,site=cnpd.pt
-$boost=4,site=dataprotection.gov.cy
-$boost=4,site=ctpdandalucia.es
-$boost=4,site=di.ax
-$boost=4,site=datatilsynet.dk
-$boost=4,site=datatilsynet.no
-$boost=4,site=datenschutzstelle.li
-$boost=4,site=datenschutz.hessen.de
-$boost=4,site=dpa.gr
-$boost=4,site=avpd.euskadi.eus
-$boost=4,site=dsb.gv.at
-$boost=4,site=datenschutzkonferenz-online.de
-$boost=4,site=dvi.gov.lv
-$boost=4,site=datenschutz.hamburg.de
-$boost=4,site=lda.brandenburg.de
-$boost=4,site=ldi.nrw.de
-$boost=4,site=datenschutz.sachsen-anhalt.de
-$boost=4,site=datenschutz.bremen.de
-$boost=4,site=datenschutz-mv.de
-$boost=4,site=datenschutz.rlp.de
-$boost=4,site=personuvernd.is
-$boost=4,site=datenschutzzentrum.de
-$boost=4,site=uodo.gov.pl
-$boost=4,site=uoou.cz
-$boost=4,site=lfd.niedersachsen.de
-$boost=4,site=baden-wuerttemberg.datenschutz.de
-$boost=4,site=naih.hu
-$boost=4,site=personvernnemnda.no
-$boost=4,site=tietosuoja.fi
+$boost=8,site=edpb.europa.eu
+$boost=8,site=edps.europa.eu
+$boost=8,site=dataprotection.ie
+$boost=8,site=eur-lex.europa.eu
+/legal^$boost=8,site=eur-lex.europa.eu
+$boost=8,site=cnil.fr
+/en^$boost=8,site=cnil.fr
+$boost=8,site=ico.org.uk
+$boost=8,site=irishstatutebook.ie
+$boost=8,site=gdpr-info.eu
+$boost=8,site=ada.lt
+$boost=8,site=aepd.es
+$boost=8,site=aki.ee
+$boost=8,site=dataprotection.ro
+$boost=8,site=autoriteitpersoonsgegevens.nl
+$boost=8,site=dataprotectionauthority.be
+$boost=8,site=apdcat.gencat.cat
+$boost=8,site=azop.hr
+$boost=8,site=lda.bayern.de
+$boost=8,site=datenschutz-bayern.de
+$boost=8,site=bfdi.bund.de
+$boost=8,site=datenschutz-berlin.de
+$boost=8,site=cpdp.bg
+$boost=8,site=datenschutz.saarland.de
+$boost=8,site=cnpd.lu
+$boost=8,site=cnpd.pt
+$boost=8,site=dataprotection.gov.cy
+$boost=8,site=ctpdandalucia.es
+$boost=8,site=di.ax
+$boost=8,site=datatilsynet.dk
+$boost=8,site=datatilsynet.no
+$boost=8,site=datenschutzstelle.li
+$boost=8,site=datenschutz.hessen.de
+$boost=8,site=dpa.gr
+$boost=8,site=avpd.euskadi.eus
+$boost=8,site=dsb.gv.at
+$boost=8,site=datenschutzkonferenz-online.de
+$boost=8,site=dvi.gov.lv
+$boost=8,site=datenschutz.hamburg.de
+$boost=8,site=lda.brandenburg.de
+$boost=8,site=ldi.nrw.de
+$boost=8,site=datenschutz.sachsen-anhalt.de
+$boost=8,site=datenschutz.bremen.de
+$boost=8,site=datenschutz-mv.de
+$boost=8,site=datenschutz.rlp.de
+$boost=8,site=personuvernd.is
+$boost=8,site=datenschutzzentrum.de
+$boost=8,site=uodo.gov.pl
+$boost=8,site=uoou.cz
+$boost=8,site=lfd.niedersachsen.de
+$boost=8,site=baden-wuerttemberg.datenschutz.de
+$boost=8,site=naih.hu
+$boost=8,site=personvernnemnda.no
+$boost=8,site=tietosuoja.fi
 /en^$boost=9,site=tietosuoja.fi
-$boost=4,site=tlfdi.de
-$boost=4,site=dataprotection.gov.sk
-$boost=4,site=garanteprivacy.it
-$boost=4,site=idpc.org.mt
-$boost=4,site=imy.se
-$boost=4,site=ip-rs.si
-$boost=4,site=saechsdsb.de
-$boost=4,site=oag.ca.gov
-$boost=4,site=le.utah.gov
-$boost=4,site=leginfo.legislature.ca.gov
-bill_id=201720180SB1121$inurl,$boost=4
-$boost=4,site=lis.virginia.gov
-$boost=4,site=ilga.gov
+$boost=8,site=tlfdi.de
+$boost=8,site=dataprotection.gov.sk
+$boost=8,site=garanteprivacy.it
+$boost=8,site=idpc.org.mt
+$boost=8,site=imy.se
+$boost=8,site=ip-rs.si
+$boost=8,site=saechsdsb.de
+$boost=8,site=oag.ca.gov
+$boost=8,site=le.utah.gov
+$boost=8,site=leginfo.legislature.ca.gov
+bill_id=201720180SB1121$inurl,$boost=8
+$boost=8,site=lis.virginia.gov
+$boost=8,site=ilga.gov
 $boost=3,site=legislation.gov.uk
 /eu^&boost=4,site=legislation.gov.uk
 
 
 ! secondary sources
 $boost=8,site=enforcementtracker.com
-$boost=6,site=gdprhub.eu
-/index.php?title=^$boost=4,site=gdprhub.eu
+$boost=8,site=gdprhub.eu
+/index.php?title=^$boost=8,site=gdprhub.eu
 $boost=5,site=dlapiperdataprotection.com
 $boost=5,site=epic.org
+/state-laws.$boost=5,site:epic.org
 $boost=5,site=eff.org
 $boost=5,site=iapp.org
+$boost=4,site=fra.europa.eu
+$boost=4,site=aclu.org
 $boost=4,site=dataguidance.com
 $boost=4,site=natlawreview.com
-/article/state-us-state-privacy-laws-comparison^$boost=4,site=natlawreview.com
+/article/state-us-state-privacy-laws-comparison^$boost=8,site=natlawreview.com
 $boost=3,site=gdpr.algolia.com
 $boost=2,site=biometricupdate.com
 
+
 ! twitter - TBD
-$boost=3,site=twitter.com
+$boost=5,site=twitter.com
 *1471549449776345092^$boost=3
 
 ! Crap that's broke
-! /privacy^$boost=4,site:oag.ca.gov
-! /ccpa^$boost=4, site:oag.ca.gov
-! /bills/static/SB0227^$boost=4,site:le.utah.gov
-! /211+sum+SB1392^$boost=4,site:lis.virginia.gov
-! /ActID=3004&ChapterID=57^$boost=4,site:ilga.gov
-! ^/us-state-privacy-legislation-tracker^$boost=4,site:iapp.org
-! ^/us-federal-privacy-legislation-tracker^$boost=4,site:iapp.org
-! ^/enforcement-and-breach-tracker^$boost=4,site:dataguidance.com
+! /privacy^$boost=8,site:oag.ca.gov
+! /ccpa^$boost=8, site:oag.ca.gov
+! /bills/static/SB0227^$boost=8,site:le.utah.gov
+! /211+sum+SB1392^$boost=8,site:lis.virginia.gov
+! /ActID=3004&ChapterID=57^$boost=8,site:ilga.gov
+! ^/us-state-privacy-legislation-tracker^$boost=8,site:iapp.org
+! ^/us-federal-privacy-legislation-tracker^$boost=8,site:iapp.org
+! ^/enforcement-and-breach-tracker^$boost=8,site:dataguidance.com
 ! ^/legal-research^$boost=3,site:dataguidance.com
 ! ^/state-laws^$boost=5,site:epic.org
 ! /gdpr_et$boost=7,site:twitter.com
