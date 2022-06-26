@@ -68,36 +68,37 @@ $boost=10,$site=imy.se
 $boost=10,$site=ip-rs.si
 $boost=10,$site=saechsdsb.de
 $boost=10,$site=oag.ca.gov
-! /privacy^$boost=10,site:oag.ca.gov
-! /ccpa^$boost=10, site:oag.ca.gov
 $boost=10,$site=le.utah.gov
 $boost=10,$site=leginfo.legislature.ca.gov
 bill_id=201720180SB1121$inurl,$boost=10
-! /bills/static/SB0227^$boost=10,site:le.utah.gov
 $boost=10,$site=lis.virginia.gov
-! /211+sum+SB1392^$boost=10,site:lis.virginia.gov
 $boost=10,$site=ilga.gov
-! /ActID=3004&ChapterID=57^$boost=10,site:ilga.gov
 
 !secondary sources
 $boost=5,$site=iapp.org
-! ^/us-state-privacy-legislation-tracker^$boost=4,site:iapp.org
-! ^/us-federal-privacy-legislation-tracker^$boost=4,site:iapp.org
 $boost=6,$site=gdprhub.eu
 /index.php?title=^$boost=4,site=gdprhub.eu
 $boost=8,$site=enforcementtracker.com
 $boost=4,$site=dataguidance.com
-! ^/enforcement-and-breach-tracker^$boost=4,site:dataguidance.com
-! ^/legal-research^$boost=3,site:dataguidance.com
 $boost=5,$site=dlapiperdataprotection.com
 $boost=4,$site=natlawreview.com
 /article/state-us-state-privacy-laws-comparison^$boost=4,site=natlawreview.com
 $boost=5,$site=epic.org
-! ^/state-laws^$boost=5,site:epic.org
 
 
 !twitter - TBD
 $boost=3,$site=twitter.com
+
+! Crap that's broke
+! /privacy^$boost=10,site:oag.ca.gov
+! /ccpa^$boost=10, site:oag.ca.gov
+! /bills/static/SB0227^$boost=10,site:le.utah.gov
+! /211+sum+SB1392^$boost=10,site:lis.virginia.gov
+! /ActID=3004&ChapterID=57^$boost=10,site:ilga.gov
+! ^/us-state-privacy-legislation-tracker^$boost=4,site:iapp.org
+! ^/us-federal-privacy-legislation-tracker^$boost=4,site:iapp.org
+! ^/enforcement-and-breach-tracker^$boost=4,site:dataguidance.com
+! ^/legal-research^$boost=3,site:dataguidance.com
+! ^/state-laws^$boost=5,site:epic.org
 ! /gdpr_et$boost=7,site:twitter.com
 ! ^/lists/1471549449776345092$boost=8,site:twitter.com
-
