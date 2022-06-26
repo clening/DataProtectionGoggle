@@ -4,7 +4,7 @@
 ! author: @privacat
 
 ! Downrank
-$downrank,site=^wikipedia.org
+$downrank,site=en.wikipedia.org
 $downrank,site=cnet.com
 $downrank,site=hackernews.com
 
