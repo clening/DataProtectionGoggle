@@ -4,7 +4,7 @@
 ! author: @privacat
 
 ! Discard other results not matching rules
-$discard 
+! $discard 
 
 ! Downrank certain sites
 $downrank,site=en.wikipedia.org
