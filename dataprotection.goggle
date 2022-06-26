@@ -68,8 +68,8 @@ $boost=10,$site=imy.se
 $boost=10,$site=ip-rs.si
 $boost=10,$site=saechsdsb.de
 $boost=10,$site=oag.ca.gov
-/privacy^$boost=10,site:oag.ca.gov
-/ccpa^$boost=10,site:oag.ca.gov
+/privacy$inurl,$boost=10
+/ccpa^$inurl,$boost=10
 $boost=10,$site=le.utah.gov
 $boost=10,$site=leginfo.legislature.ca.gov
 bill_id=201720180SB1121$inurl,$boost=10
