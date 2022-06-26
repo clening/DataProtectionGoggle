@@ -95,7 +95,7 @@ $boost=8,site=gdprhub.eu
 /index.php?title=^$boost=8,site=gdprhub.eu
 $boost=5,site=dlapiperdataprotection.com
 $boost=5,site=epic.org
-/state-laws/^$boost=5,site:epic.org
+/state-laws$boost=5
 $boost=5,site=eff.org
 $boost=5,site=iapp.org
 $boost=4,site=fra.europa.eu
