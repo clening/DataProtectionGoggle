@@ -11,7 +11,7 @@ $downrank,site=hackernews.com
 
 !primary sources
 $boost=4,site=curia.europa.eu
-/juris$inurl,$boost=4,site:curia.europa.eu
+/juris/fiche.js^$inurl,$boost=4,site:curia.europa.eu
 $boost=4,site=edpb.europa.eu
 $boost=4,site=edps.europa.eu
 $boost=4,site=dataprotection.ie
