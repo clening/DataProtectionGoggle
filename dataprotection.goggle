@@ -3,13 +3,16 @@
 ! public: true
 ! author: @privacat
 
-! Downrank
+! Discard other results not matching rules
+$discard 
+
+! Downrank certain sites
 $downrank,site=en.wikipedia.org
 $downrank,site=cnet.com
 $downrank,site=hackernews.com
 
 
-!primary sources
+! primary sources
 $boost=5,site=eur-lex.europa.eu
 /search.html?^$boost=5
 $boost=5,site=curia.europa.eu
@@ -86,7 +89,7 @@ $boost=3,site=legislation.gov.uk
 /eu^&boost=4,site=legislation.gov.uk
 
 
-!secondary sources
+! secondary sources
 $boost=8,site=enforcementtracker.com
 $boost=6,site=gdprhub.eu
 /index.php?title=^$boost=4,site=gdprhub.eu
@@ -100,7 +103,7 @@ $boost=4,site=natlawreview.com
 $boost=3,site=gdpr.algolia.com
 $boost=2,site=biometricupdate.com
 
-!twitter - TBD
+! twitter - TBD
 $boost=3,site=twitter.com
 *1471549449776345092^$boost=3
 
