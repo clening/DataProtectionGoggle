@@ -10,6 +10,8 @@ $downrank,site=hackernews.com
 
 
 !primary sources
+$boost=5,site=eur-lex.europa.eu
+/search.html?^$boost=5
 $boost=5,site=curia.europa.eu
 /juris$inurl,$boost=5
 $boost=4,site=edpb.europa.eu
